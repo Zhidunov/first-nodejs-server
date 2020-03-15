@@ -118,7 +118,9 @@ let hardRes = {
       status: "I-m the fullstack developer",
       location: { country: "Germany", city: "Berlin" }
     }
-  ]
+  ],
+  totalCount: 12,
+  error: null
 };
 
 const port = 4000;
@@ -130,9 +132,9 @@ app.get("/users", (req, res) => {
   const startIndex = (page - 1) * count;
   const endIndex = page * count;
 
-  const resultUsers = hardRes.users.slice(startIndex, endIndex);
+  const users = hardRes.users.slice(startIndex, endIndex);
 
-  res.json(resultUsers);
+  res.json({...hardRes, users});
 });
 
 app.listen(port, () => {
