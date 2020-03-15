@@ -38,7 +38,7 @@ let hardRes = {
       location: { country: "Germany", city: "Berlin" }
     },
     {
-      id: 1,
+      id: 4,
       avatarURL:
         "https://previews.123rf.com/images/studiostoks/studiostoks1708/studiostoks170800016/84215159-surprise-woman-pop-art-avatar-character-icon.jpg",
       followed: true,
@@ -47,7 +47,7 @@ let hardRes = {
       location: { country: "Russia", city: "Sochi" }
     },
     {
-      id: 2,
+      id: 5,
       avatarURL:
         "https://fiverr-res.cloudinary.com/images/t_main1,q_auto,f_auto/gigs/21514027/original/bf55eef1cfc1ba545ac9153cedebf61abe38af8a/create-your-pop-art-avatar-from-your-image.jpg",
       followed: false,
@@ -56,7 +56,7 @@ let hardRes = {
       location: { country: "Russia", city: "Saint-Petersburg" }
     },
     {
-      id: 3,
+      id: 6,
       avatarURL:
         "https://previews.123rf.com/images/studiostoks/studiostoks1707/studiostoks170700393/83085765-avatar-portrait-of-a-man-straightens-his-tie-pop-art-retro-vector-illustration.jpg",
       followed: true,
@@ -65,7 +65,7 @@ let hardRes = {
       location: { country: "Germany", city: "Berlin" }
     },
     {
-      id: 1,
+      id: 7,
       avatarURL:
         "https://previews.123rf.com/images/studiostoks/studiostoks1708/studiostoks170800016/84215159-surprise-woman-pop-art-avatar-character-icon.jpg",
       followed: true,
@@ -74,7 +74,7 @@ let hardRes = {
       location: { country: "Russia", city: "Sochi" }
     },
     {
-      id: 2,
+      id: 8,
       avatarURL:
         "https://fiverr-res.cloudinary.com/images/t_main1,q_auto,f_auto/gigs/21514027/original/bf55eef1cfc1ba545ac9153cedebf61abe38af8a/create-your-pop-art-avatar-from-your-image.jpg",
       followed: false,
@@ -83,7 +83,7 @@ let hardRes = {
       location: { country: "Russia", city: "Saint-Petersburg" }
     },
     {
-      id: 3,
+      id: 9,
       avatarURL:
         "https://previews.123rf.com/images/studiostoks/studiostoks1707/studiostoks170700393/83085765-avatar-portrait-of-a-man-straightens-his-tie-pop-art-retro-vector-illustration.jpg",
       followed: true,
@@ -92,7 +92,7 @@ let hardRes = {
       location: { country: "Germany", city: "Berlin" }
     },
     {
-      id: 1,
+      id: 10,
       avatarURL:
         "https://previews.123rf.com/images/studiostoks/studiostoks1708/studiostoks170800016/84215159-surprise-woman-pop-art-avatar-character-icon.jpg",
       followed: true,
@@ -101,7 +101,7 @@ let hardRes = {
       location: { country: "Russia", city: "Sochi" }
     },
     {
-      id: 2,
+      id: 11,
       avatarURL:
         "https://fiverr-res.cloudinary.com/images/t_main1,q_auto,f_auto/gigs/21514027/original/bf55eef1cfc1ba545ac9153cedebf61abe38af8a/create-your-pop-art-avatar-from-your-image.jpg",
       followed: false,
@@ -110,7 +110,7 @@ let hardRes = {
       location: { country: "Russia", city: "Saint-Petersburg" }
     },
     {
-      id: 3,
+      id: 12,
       avatarURL:
         "https://previews.123rf.com/images/studiostoks/studiostoks1707/studiostoks170700393/83085765-avatar-portrait-of-a-man-straightens-his-tie-pop-art-retro-vector-illustration.jpg",
       followed: true,
