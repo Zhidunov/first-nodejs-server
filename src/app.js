@@ -134,7 +134,13 @@ app.get("/users", (req, res) => {
 
   const users = hardRes.users.slice(startIndex, endIndex);
 
-  res.json({...hardRes, users});
+  res.json({ ...hardRes, users });
+});
+
+app.get("/profile/:id", (req, res) => {
+  const id = req.params.id;
+  const user = hardRes.users[id - 1];
+  res.json(user);
 });
 
 app.listen(port, () => {
