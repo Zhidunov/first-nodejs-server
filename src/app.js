@@ -143,6 +143,22 @@ app.get("/profile/:id", (req, res) => {
   res.json(user);
 });
 
+app.get("/profile/status/:id", (req, res) => {
+  const id = req.params.id;
+  const status = hardRes.users[id - 1].status;
+  res.json(status);
+});
+
+app.put("/profile/status/:id", (req, res) => {
+  const id = req.params.id;
+  hardRes.users[id - 1].status = req.body.status;
+  res.json({
+    resultCode: 0,
+    messages: [],
+    data: {}
+  });
+});
+
 app.listen(port, () => {
   console.log(`Server is listening at http://localhost:${port}`);
 });
